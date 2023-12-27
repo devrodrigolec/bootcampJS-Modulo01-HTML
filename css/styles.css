@@ -112,8 +112,15 @@ a {
 
 .main {
   width: 100%;
-  padding: 3rem 0;
+  padding: 5rem 0 3rem;  
 }
+
+@media (min-width: 920px) {
+  .main {
+    padding-top: 9rem;
+  }
+}
+
 
 .main h2 {
   font-family: "Montserrat-Bold";
@@ -189,6 +196,7 @@ a {
   background-color: var(--black);
   color: white;
   padding: 1rem 2rem;
+  
 }
 .shake-horizontal:hover {
   animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
