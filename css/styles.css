@@ -71,6 +71,10 @@ a {
 .navbar__list {
   display: none;
 }
+.bg-animation:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
 @media (min-width: 920px) {
   .navbar__list {
     width: 40vw;
@@ -86,10 +90,7 @@ a {
     text-wrap: nowrap;
   }
 
-  .bg-animation:hover {
-    background-color: aquamarine;
-    cursor: pointer;
-  }
+  
 }
 .navbar__list-icons {
   display: none;
